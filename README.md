@@ -1,4 +1,4 @@
-# Smart Team Chat UI
+# Smart Team Chat UI      https://smartteamchatui.netlify.app/
 
 A minimal React + Vite prototype showcasing AI‑enhanced team communication with simple placeholder actions. There is no backend or real AI in this demo.
 
