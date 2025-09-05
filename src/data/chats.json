@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "name": "Alice",
+    "lastMessage": "See you tomorrow!",
+    "time": "10:45 AM",
+    "messages": [
+      { "from": "Alice", "text": "Hey, how’s the project going?", "time": "10:15 AM" },
+      { "from": "Me", "text": "Almost done, will send update soon.", "time": "10:20 AM" }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Team Chat",
+    "lastMessage": "Deadline confirmed for Friday.",
+    "time": "09:30 AM",
+    "messages": [
+      { "from": "Bob", "text": "Reminder: standup at 11 AM", "time": "09:00 AM" },
+      { "from": "Me", "text": "Got it!", "time": "09:10 AM" }
+    ]
+  }
+]
+
+
