@@ -1,16 +1,22 @@
 import React from 'react'
+import { motion } from 'framer-motion'
 
 export default function AIPlaceholderCard({ title, children, actionArea }) {
   return (
-    <div className="card p-4">
+    <motion.div
+      initial={{ opacity: 0, y: 8 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.25 }}
+      className="p-4 rounded-2xl bg-gradient-to-r from-violet-600 to-emerald-600 text-white shadow-lg"
+    >
       <div className="flex items-center justify-between">
-        <h4 className="font-semibold text-gray-900">{title}</h4>
+        <h4 className="font-semibold">{title}</h4>
         {actionArea}
       </div>
-      <div className="text-sm text-gray-700 mt-2">
+      <div className="text-sm mt-2">
         {children}
       </div>
-    </div>
+    </motion.div>
   )
 }
 
